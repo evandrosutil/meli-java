@@ -18,3 +18,7 @@ Pratica OOP criando classe referente a pessoa e criando alguns métodos relacion
 #### [Transacoes](https://github.com/evandrosutil/meli-java/tree/master/transacoes)
 
 #### [Animais](https://github.com/evandrosutil/meli-java/tree/master/Animals)
+
+#### [Garagem](https://github.com/evandrosutil/meli-java/tree/master/Veiculos)
+
+#### [SupermercadoOEconomico](https://github.com/evandrosutil/it-bootcamp-meli-w5-supermarket)

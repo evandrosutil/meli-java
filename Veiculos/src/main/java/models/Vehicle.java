@@ -25,4 +25,9 @@ public class Vehicle {
     public BigDecimal getPrice() {
         return price;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s %s (R$ %5.2f)", brand, model, price);
+    }
 }

@@ -53,11 +53,7 @@ public class Main {
             .forEach(System.out::println);
 
         System.out.println("\n\nAvg price\n------------------");
-        double priceAvg = garage.getVehicles()
-                .stream()
-                .mapToDouble(Vehicle -> Vehicle.getPrice().doubleValue())
-                .summaryStatistics()
-                .getAverage();
+        double priceAvg = garage.calcAvg();
 
         System.out.printf("R$ %.2f%n", priceAvg);
     }

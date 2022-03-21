@@ -18,4 +18,15 @@ public class Garage {
     public ArrayList<Vehicle> getVehicles() {
         return vehicles;
     }
+
+    public double calcAvg() {
+        double priceAvg = vehicles
+                .stream()
+                .mapToDouble(Vehicle -> Vehicle.getPrice().doubleValue())
+                .summaryStatistics()
+                .getAverage();
+
+        return priceAvg;
+    }
+
 }

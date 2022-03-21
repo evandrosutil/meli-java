@@ -41,5 +41,24 @@ public class Main {
                 .stream()
                 .sorted((vehicleX, vehicleY)->vehicleX.getBrand().compareTo(vehicleY.getBrand()))
                 .forEach(System.out::println);
+
+        System.out.println("\n\nOnly vehicules with price below 1000\n-------------");
+        garage.getVehicles()
+                .stream().filter(vehicle -> vehicle.getPrice().compareTo(BigDecimal.valueOf(1000)) < 0)
+                .forEach(System.out::println);
+
+        System.out.println("\n\nOnly vehicules with price gte 1000\n-------------");
+        garage.getVehicles()
+                .stream().filter(vehicle -> vehicle.getPrice().compareTo(BigDecimal.valueOf(1000)) >= 0)
+            .forEach(System.out::println);
+
+        System.out.println("\n\nAvg price\n------------------");
+        double priceAvg = garage.getVehicles()
+                .stream()
+                .mapToDouble(Vehicle -> Vehicle.getPrice().doubleValue())
+                .summaryStatistics()
+                .getAverage();
+
+        System.out.printf("R$ %.2f%n", priceAvg);
     }
 }

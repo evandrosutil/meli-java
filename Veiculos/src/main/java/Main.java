@@ -28,12 +28,18 @@ public class Main {
         );
 
         System.out.println(garage.getVehicles());
-       //
-        Object[] sortedGarage = garage.getVehicles().
-                stream()
+        System.out.println("\n\nSorting by price\n-------------");
+        Object[] sortedGarage = garage.getVehicles()
+                .stream()
                 .sorted((vehicleY, vehicleX)->vehicleX.getPrice().compareTo(vehicleY.getPrice()))
                 .toArray();
 
         Arrays.stream(sortedGarage).forEach(System.out::println);
+
+        System.out.println("\n\nSorting by brand\n-------------");
+        garage.getVehicles()
+                .stream()
+                .sorted((vehicleX, vehicleY)->vehicleX.getBrand().compareTo(vehicleY.getBrand()))
+                .forEach(System.out::println);
     }
 }

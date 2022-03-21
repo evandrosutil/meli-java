@@ -3,6 +3,7 @@ import models.Vehicle;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
@@ -27,5 +28,12 @@ public class Main {
         );
 
         System.out.println(garage.getVehicles());
+       //
+        Object[] sortedGarage = garage.getVehicles().
+                stream()
+                .sorted((vehicleY, vehicleX)->vehicleX.getPrice().compareTo(vehicleY.getPrice()))
+                .toArray();
+
+        Arrays.stream(sortedGarage).forEach(System.out::println);
     }
 }

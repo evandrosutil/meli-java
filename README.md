@@ -22,3 +22,12 @@ Pratica OOP criando classe referente a pessoa e criando alguns métodos relacion
 #### [Garagem](https://github.com/evandrosutil/meli-java/tree/master/Veiculos)
 
 #### [SupermercadoOEconomico](https://github.com/evandrosutil/it-bootcamp-meli-w5-supermarket)
+
+#### [Dakar](https://github.com/evandrosutil/meli-java/tree/master/dakar)
+
+## Java + Spring
+### [Romanos](https://github.com/evandrosutil/meli-java/tree/master/romanos)
+Desenvolver API para converter um número decimal para um numeral romano.
+
+### [Morse](https://github.com/evandrosutil/meli-java/tree/master/morse)
+Realização de uma API que receba um Código Morse e retorne sua tradução em português.

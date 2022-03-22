@@ -20,7 +20,7 @@ public class Main {
         corrida.deleteVehicleWithPlate("OPP4S555");
         corrida.addCar(290, 14.23, 56.23, "TOP5A000");
 
-        corrida.getVehicles().stream().forEach(System.out::println);
+        System.out.println(corrida.getWinner().toString());
     }
 
 

@@ -1,8 +1,9 @@
 package models;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.Optional;
+import java.util.*;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 public class Race {
 
@@ -71,5 +72,23 @@ public class Race {
 
     public void deleteVehicleWithPlate(String plate) {
         vehicles.removeIf(vehicle -> vehicle.getPlate().equals(plate));
+    }
+
+    public Double calcWinnerMetric(Vehicle vehicle) {
+        return (vehicle.getSpeed() * 0.5 * vehicle.getAcceleration()) /
+                (vehicle.getSteeringAngle() * (vehicle.getWeight() - vehicle.getWheels()) * 100);
+    }
+
+    public Vehicle getWinner() {
+        HashMap<Double, Vehicle> vehiclesResults = new HashMap<>();
+        vehicles.forEach(vehicle -> vehiclesResults.put(calcWinnerMetric(vehicle), vehicle));
+
+        return vehiclesResults.entrySet()
+                .stream()
+                .max((vehicle1, vehicle2)->vehicle1.getKey().compareTo(vehicle2.getKey()))
+                .stream()
+                .findFirst()
+                .get()
+                .getValue();
     }
 }

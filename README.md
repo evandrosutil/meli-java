@@ -35,3 +35,9 @@ Realização de uma API que receba um Código Morse e retorne sua tradução em 
 ## Testes
 ### [Validação](https://github.com/evandrosutil/meli-java/tree/master/7.1%20ObterDiploma%20(Base))
 Implementar validações para os dados de entrada.
+
+
+## Desafios
+### [Desafio Spring](https://github.com/Icaro-Salgado/w5g6-desafio-spring)
+
+### [Desafio Quality](https://github.com/Icaro-Salgado/w5g6-desafio-quality)

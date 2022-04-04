@@ -43,6 +43,8 @@ Exercício proposta para criar um Diagrama Entidade - Relação.
 ### [Prática Integradora 2](https://github.com/evandrosutil/meli-java/tree/master/moviesDB)
 Exercício para praticar consultas a um banco de filmes.
 
+### [Consultas SQL Avançadas](https://github.com/evandrosutil/meli-java/blob/master/moviesDB/DB2_pratica_integradora.md)
+
 ## Desafios
 ### [Desafio Spring](https://github.com/Icaro-Salgado/w5g6-desafio-spring)
 

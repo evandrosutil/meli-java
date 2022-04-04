@@ -36,6 +36,10 @@ Realização de uma API que receba um Código Morse e retorne sua tradução em 
 ### [Validação](https://github.com/evandrosutil/meli-java/tree/master/7.1%20ObterDiploma%20(Base))
 Implementar validações para os dados de entrada.
 
+## Banco de Dados
+### [Prática Integradora 1](https://github.com/evandrosutil/meli-java/tree/master/bancoDeDados)
+Exercício proposta para criar um Diagrama Entidade - Relação.
+
 
 ## Desafios
 ### [Desafio Spring](https://github.com/Icaro-Salgado/w5g6-desafio-spring)

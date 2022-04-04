@@ -15,7 +15,7 @@ SELECT first_name, last_name FROM actors WHERE ratings > 7.5;
 SELECT title, rating, awards FROM movies WHERE ratings > 7.5;
 
 -- Mostrar o título dos filmes e a classificação ordenados por classificação em ordem crescente.
-SELECT title, rating FROM movies ORDER BY rating DESC;
+SELECT title, rating FROM movies ORDER BY rating;
 
 -- Mostrar os títulos dos três primeiros filmes no banco de dados.
 SELECT title FROM movies LIMIT 3;

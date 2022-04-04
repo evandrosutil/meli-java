@@ -40,6 +40,8 @@ Implementar validações para os dados de entrada.
 ### [Prática Integradora 1](https://github.com/evandrosutil/meli-java/tree/master/bancoDeDados)
 Exercício proposta para criar um Diagrama Entidade - Relação.
 
+### [Prática Integradora 2](https://github.com/evandrosutil/meli-java/tree/master/moviesDB)
+Exercício para praticar consultas a um banco de filmes.
 
 ## Desafios
 ### [Desafio Spring](https://github.com/Icaro-Salgado/w5g6-desafio-spring)

@@ -1,20 +1,25 @@
 ## Parte 1
 
-1. Como é chamado um JOIN em um banco de dados e para que é usado?
+> 1. Como é chamado um JOIN em um banco de dados e para que é usado?
+
 A cláusula JOIN é usada para combinar duas ou mais tabelas com base na relação existente entre elas.
 
-2. Explique os tipos de JOIN.
+> 2. Explique os tipos de JOIN.
+
 INNER JOIN: faz a união quando os valores são iguais em ambas as tabelas.
 LEFT & RIGHT JOINs: retorna todos os valores da tabela esquerda ou direita e os registros correspondentes na outra tabela.
 FULL ou OUTER JOIN: retorna todos os valores quando há um match na tabela da direita ou da esquerda. 
 
-3. Para que serve o GROUP BY?
+> 3. Para que serve o GROUP BY?
+
 O Group By serve para agrupar resultados por determinadas colunas, geralmente mostrando resultado de alguma função agregadora, como MAX, MIN, etc.
 
-4. Para que serve o HAVING?
+> 4. Para que serve o HAVING?
+
 O Having funciona de forma semelhante ao WHERE, mas é usado para filtrar os resultados agrupados.
 
-5. Escreva uma consulta genérica para cada um dos seguintes diagramas:
+> 5. Escreva uma consulta genérica para cada um dos seguintes diagramas:
+<img width="484" alt="Captura de Tela 2022-04-04 às 19 00 41" src="https://user-images.githubusercontent.com/39993682/161639322-b0ef0a32-5cf5-469a-bdd8-c5531c900621.png">
 
 ```
 SELECT * FROM costumer INNER JOIN order ON order.customer_id = customer.id

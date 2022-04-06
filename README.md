@@ -56,6 +56,9 @@ Prática Integradora 3: praticando a criação e a relação entre tabelas.
 #### [Normalização](https://github.com/evandrosutil/meli-java/tree/master/normalizacao)
 Prática Integradora 4: aplicando conceito de normalização.
 
+### [Tabelas temporárias e índices](https://github.com/evandrosutil/meli-java/blob/master/moviesDB/pratica_integradora5.md)
+Prática Integradora 5: entendendo mais algumas operações em tabelas, tabelas temporárias e índices.
+
 ## Desafios
 ### [Desafio Spring](https://github.com/Icaro-Salgado/w5g6-desafio-spring)
 

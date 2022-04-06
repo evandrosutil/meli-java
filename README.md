@@ -47,8 +47,11 @@ Exercício para praticar consultas a um banco de filmes.
 #### [Movies DB pt 2](https://github.com/evandrosutil/meli-java/blob/master/moviesDB/DB2_pratica_integradora.md)
 Prática Integradora 1: mais algumas consultas ao banco de filmes.
 
-### [Funcionários DB](https://github.com/evandrosutil/meli-java/blob/master/funcionariosDB)
+#### [Funcionários DB](https://github.com/evandrosutil/meli-java/blob/master/funcionariosDB)
 Prática integradora 2: usando JOINs e SUBQUERIES.
+
+#### [Biblioteca DB](https://github.com/evandrosutil/meli-java/tree/master/bibliotecaDB)
+Prática Integradora 3: praticando a criação e a relação entre tabelas.
 
 ## Desafios
 ### [Desafio Spring](https://github.com/Icaro-Salgado/w5g6-desafio-spring)

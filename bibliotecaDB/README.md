@@ -130,3 +130,12 @@ FROM Livro l
 LEFT JOIN Emprestimo e ON l.idLivro = e.idLivro
 WHERE data_devolucao <= '2021-07-16'
 ```
+
+
+## Exercício 2
+
+Para popular o banco, criando um DB chamado biblioteca, rodar:
+`psql postgres -f biblioteca.sql`
+
+Depois, para rodar algumas consultas:
+`sh commands.sh`

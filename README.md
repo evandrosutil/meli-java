@@ -53,6 +53,9 @@ Prática integradora 2: usando JOINs e SUBQUERIES.
 #### [Biblioteca DB](https://github.com/evandrosutil/meli-java/tree/master/bibliotecaDB)
 Prática Integradora 3: praticando a criação e a relação entre tabelas.
 
+#### [Normalização](https://github.com/evandrosutil/meli-java/tree/master/normalizacao)
+Prática Integradora 4: aplicando conceito de normalização.
+
 ## Desafios
 ### [Desafio Spring](https://github.com/Icaro-Salgado/w5g6-desafio-spring)
 

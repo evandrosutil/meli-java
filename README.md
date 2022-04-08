@@ -59,6 +59,11 @@ Prática Integradora 4: aplicando conceito de normalização.
 ### [Tabelas temporárias e índices](https://github.com/evandrosutil/meli-java/blob/master/moviesDB/pratica_integradora5.md)
 Prática Integradora 5: entendendo mais algumas operações em tabelas, tabelas temporárias e índices.
 
+## Storage Implementation
+
+### [Pérolas](https://github.com/evandrosutil/meli-java/blob/master/perolas)
+Prática de persistência em banco.
+
 ## Desafios
 ### [Desafio Spring](https://github.com/Icaro-Salgado/w5g6-desafio-spring)
 

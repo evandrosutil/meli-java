@@ -6,22 +6,30 @@ repositorio com codigos desenvolvidos no bootcamp de java do meli, organizado pe
 Implementar código que encontre as cidades com a temperatura mais alta e a mais baixa.
 
 ### [Corrida na Selva](https://github.com/evandrosutil/meli-java/tree/master/CorridaSelva)
-Desenvolve código que permite inscrição, listagem e remoção de corredores da Corrida na Selva.
+Desenvolve código que permite inscrição, listagem e remoção de corredores da Corrida na Selva. Prática integradora com o objetivo de consolidar conceitos de diferentes estruturas dinâmicas
 
 
 ### Classes abstratas e interfaces
 #### [Pessoa](https://github.com/evandrosutil/meli-java/tree/master/pessoa)
-Pratica OOP criando classe referente a pessoa e criando alguns métodos relacionados.
+Pratica OOP criando classe referente a pessoa e criando alguns métodos relacionados. 
+
+#### [Pratica Exceções](https://github.com/evandrosutil/meli-java/tree/master/PraticaExcecoes)
+Exercício práticos para consolidar tanto o conceito de exceções como encapsulamento, herança e sobrescrita.
 
 #### [Produto](https://github.com/evandrosutil/meli-java/tree/master/PraticaExcecoes/src/main/java/product)
 
 #### [Transacoes](https://github.com/evandrosutil/meli-java/tree/master/transacoes)
 
-#### [Animais](https://github.com/evandrosutil/meli-java/tree/master/Animals)
+#### [Printables](https://github.com/evandrosutil/meli-java/tree/master/printable)
+Praticando um pouco com interfaces.
+
+#### [Animals](https://github.com/evandrosutil/meli-java/tree/master/animalSound)
+Classes abstratas e interfaces
 
 #### [Garagem](https://github.com/evandrosutil/meli-java/tree/master/Veiculos)
 
 #### [SupermercadoOEconomico](https://github.com/evandrosutil/it-bootcamp-meli-w5-supermarket)
+Exercício para consolidação dos conteúdos visto até o momento.
 
 #### [Dakar](https://github.com/evandrosutil/meli-java/tree/master/dakar)
 

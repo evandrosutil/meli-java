@@ -40,6 +40,10 @@ Desenvolver API para converter um número decimal para um numeral romano.
 ### [Morse](https://github.com/evandrosutil/meli-java/tree/master/morse)
 Realização de uma API que receba um Código Morse e retorne sua tradução em português.
 
+### [Esportes](https://github.com/evandrosutil/meli-java/tree/master/esporte)
+Criação de API para consolidar conhecimentos sobre DTO, ResponseEntity e anotações.
+
+
 ## Testes
 ### [Validação](https://github.com/evandrosutil/meli-java/tree/master/7.1%20ObterDiploma%20(Base))
 Implementar validações para os dados de entrada.

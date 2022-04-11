@@ -40,6 +40,9 @@ Desenvolver API para converter um número decimal para um numeral romano.
 ### [Morse](https://github.com/evandrosutil/meli-java/tree/master/morse)
 Realização de uma API que receba um Código Morse e retorne sua tradução em português.
 
+### [Idade](https://github.com/evandrosutil/meli-java/tree/master/age)
+Desenvolvimento de API que receba a data de nascimento de uma pessoa na URL e retorne a idade correspondente.
+
 ## Testes
 ### [Validação](https://github.com/evandrosutil/meli-java/tree/master/7.1%20ObterDiploma%20(Base))
 Implementar validações para os dados de entrada.

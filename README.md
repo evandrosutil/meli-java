@@ -79,6 +79,8 @@ Prática Integradora 5: entendendo mais algumas operações em tabelas, tabelas 
 ### [Pérolas](https://github.com/evandrosutil/meli-java/blob/master/perolas)
 Prática de persistência em banco.
 
+### [QABugs](https://github.com/evandrosutil/meli-java/blob/master/qabugs)
+
 ## Desafios
 ### [Desafio Spring](https://github.com/Icaro-Salgado/w5g6-desafio-spring)
 

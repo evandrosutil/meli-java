@@ -81,6 +81,9 @@ Prática de persistência em banco.
 
 ### [QABugs](https://github.com/evandrosutil/meli-java/blob/master/qabugs)
 
+### [Tutoriais](https://github.com/evandrosutil/meli-java/blob/master/tutorials)
+Praticar a implementação de API REST que permita a persistência de dados em um banco de dados relacional.
+
 ## Desafios
 ### [Desafio Spring](https://github.com/Icaro-Salgado/w5g6-desafio-spring)
 
